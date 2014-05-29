@@ -1,0 +1,15 @@
+{
+  "name": "Skyhook ATM",
+  "description": "Code for the Skyhook ATM",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "serial"
+  ],
+  "icons": { "16": "skyhook-16.png", "128": "skyhook-128.png" }
+}
